@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Library library = new Library();
 
-        LibraryItem book = new Book("B1", "Design Patterns", 1994, "GoF");
-        LibraryItem magazine = new Magazine("M1", "Science Weekly", 2023, 42);
+        LibraryItem book = new Book("B1", "Design Patterns", 1994, "GoF", 40);
+        LibraryItem magazine = new Magazine("M1", "Science Weekly", 2023, 42, 12);
 
         library.addItem(book);
         library.addItem(magazine);

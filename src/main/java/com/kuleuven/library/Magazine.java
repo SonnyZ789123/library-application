@@ -4,8 +4,8 @@ public class Magazine extends LibraryItem {
 
     private int issueNumber;
 
-    public Magazine(String id, String title, int year, int issueNumber) {
-        super(id, title, year);
+    public Magazine(String id, String title, int year, int issueNumber, double price) {
+        super(id, title, year, price);
         this.issueNumber = issueNumber;
     }
 

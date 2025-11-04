@@ -5,8 +5,8 @@ public class Book extends LibraryItem implements Borrowable {
     private String author;
     private User borrowedBy;
 
-    public Book(String id, String title, int year, String author) {
-        super(id, title, year);
+    public Book(String id, String title, int year, String author, double price) {
+        super(id, title, year, price);
         this.author = author;
     }
 
@@ -34,5 +34,20 @@ public class Book extends LibraryItem implements Borrowable {
     @Override
     public boolean isBorrowed() {
         return borrowedBy != null;
+    }
+
+    @Override
+    public double getReducedPrice() {
+        double reducedPrice = super.getPrice();
+        if (borrowedBy != null && borrowedBy.getRole().equals("MEMBER")) {
+            reducedPrice = reducedPrice * 0.9;
+        }
+        if (borrowedBy != null && borrowedBy.getRole().equals("LIBRARIAN")) {
+            reducedPrice = reducedPrice * 0.5;
+        }
+        if (super.getPrice() > 30) {
+            reducedPrice = reducedPrice * 0.95;
+        }
+        return reducedPrice;
     }
 }
