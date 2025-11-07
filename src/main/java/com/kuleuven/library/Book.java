@@ -37,6 +37,11 @@ public class Book extends LibraryItem implements Borrowable {
     }
 
     @Override
+    public double getPrice() {
+        return super.getPrice();
+    }
+
+    @Override
     public double getReducedPrice() {
         double reducedPrice = super.getPrice();
         if (borrowedBy != null && borrowedBy.getRole().equals("MEMBER")) {

@@ -23,15 +23,15 @@ public class ControlFlowGraph {
         JavaView view = new JavaView(inputLocation);
 
         JavaClassType classType =
-                view.getIdentifierFactory().getClassType("com.kuleuven.library.Main");
+                view.getIdentifierFactory().getClassType("com.kuleuven.library.Book");
 
         JavaSootClass sootClass = view.getClass(classType).get();
 
         MethodSignature methodSignature = view.getIdentifierFactory().getMethodSignature(
                 classType,
-                "main", // method name
-                "void", // return type
-                Collections.singletonList("java.lang.String[]")); // args
+                "getReducedPrice", // method name
+                "double", // return type
+                Collections.emptyList()); // args
 
         MethodSubSignature mss = methodSignature.getSubSignature();
         Optional<JavaSootMethod> opt = sootClass.getMethod(mss);
@@ -44,6 +44,7 @@ public class ControlFlowGraph {
 
         StmtGraph<?> graph = sootMethod.getBody().getStmtGraph();
 
+        System.out.println(DotExporter.buildGraph(graph, false, null, null));
         String urlToWebeditor = DotExporter.createUrlToWebeditor(graph);
         System.out.println(urlToWebeditor);
     }

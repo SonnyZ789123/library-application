@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6379ee4-0605-4e32-a1b1-ffa95bb04d52" name="Changes" comment="Add ControlFlowGraph.java with SootUp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/CallGraph.java" afterDir="false" />
+    <list default="true" id="f6379ee4-0605-4e32-a1b1-ffa95bb04d52" name="Changes" comment="Add pricing to library items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/LibraryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/ControlFlowGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/ControlFlowGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761837665186</updated>
       <workItem from="1761837666417" duration="778000" />
-      <workItem from="1761838466397" duration="7917000" />
+      <workItem from="1761838466397" duration="10691000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -153,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762245857546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add CallGraph.java">
+      <option name="closed" value="true" />
+      <created>1762246787470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762246787470</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add pricing to library items">
+      <option name="closed" value="true" />
+      <created>1762247143345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762247143345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +179,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Test JavaParser" />
     <MESSAGE value="Add ControlFlowGraph.java with SootUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ControlFlowGraph.java with SootUp" />
+    <MESSAGE value="Add CallGraph.java" />
+    <MESSAGE value="Add pricing to library items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pricing to library items" />
   </component>
 </project>
