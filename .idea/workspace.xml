@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6379ee4-0605-4e32-a1b1-ffa95bb04d52" name="Changes" comment="Add pricing to library items">
+    <list default="true" id="f6379ee4-0605-4e32-a1b1-ffa95bb04d52" name="Changes" comment="Add getReducedPrice function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/ControlFlowGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/ControlFlowGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuleuven/CallGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuleuven/CallGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="34n7p0EB0tanGYd2xgsc2HCYmRo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,6 +44,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -128,6 +128,7 @@
       <updated>1761837665186</updated>
       <workItem from="1761837666417" duration="778000" />
       <workItem from="1761838466397" duration="10691000" />
+      <workItem from="1762533088381" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762247143345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add getReducedPrice function">
+      <option name="closed" value="true" />
+      <created>1762533163275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762533163275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +190,7 @@
     <MESSAGE value="Add ControlFlowGraph.java with SootUp" />
     <MESSAGE value="Add CallGraph.java" />
     <MESSAGE value="Add pricing to library items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pricing to library items" />
+    <MESSAGE value="Add getReducedPrice function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getReducedPrice function" />
   </component>
 </project>
