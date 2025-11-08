@@ -1,4 +1,6 @@
-package com.kuleuven.library;
+package com.kuleuven.library.domain;
+
+import com.kuleuven.library.domain.LibraryItem;
 
 public class Magazine extends LibraryItem {
 

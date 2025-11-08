@@ -1,4 +1,7 @@
-package com.kuleuven.library;
+package com.kuleuven.library.impl;
+
+import com.kuleuven.library.actions.Library;
+import com.kuleuven.library.domain.LibraryItem;
 
 public class RecommendationService {
     private static RecommendationService instance;

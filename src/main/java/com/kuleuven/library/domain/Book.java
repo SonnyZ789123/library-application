@@ -1,4 +1,6 @@
-package com.kuleuven.library;
+package com.kuleuven.library.domain;
+
+import com.kuleuven.library.interfaces.Borrowable;
 
 public class Book extends LibraryItem implements Borrowable {
 

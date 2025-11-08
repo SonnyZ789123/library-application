@@ -1,5 +1,13 @@
 package com.kuleuven.library;
 
+import com.kuleuven.library.actions.Library;
+import com.kuleuven.library.domain.*;
+import com.kuleuven.library.impl.EmailNotifier;
+import com.kuleuven.library.impl.LoggingListener;
+import com.kuleuven.library.impl.RecommendationService;
+import com.kuleuven.library.interfaces.Borrowable;
+import com.kuleuven.library.interfaces.Notifier;
+
 public class Main {
     public static void main(String[] args) {
         // Inject a Notifier (dynamic dispatch target)

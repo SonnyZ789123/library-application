@@ -1,4 +1,9 @@
-package com.kuleuven.library;
+package com.kuleuven.library.actions;
+
+import com.kuleuven.library.domain.LibraryItem;
+import com.kuleuven.library.domain.User;
+import com.kuleuven.library.interfaces.LibraryListener;
+import com.kuleuven.library.interfaces.Notifier;
 
 import java.util.ArrayList;
 import java.util.List;

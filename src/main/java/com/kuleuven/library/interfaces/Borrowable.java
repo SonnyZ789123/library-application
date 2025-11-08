@@ -1,4 +1,6 @@
-package com.kuleuven.library;
+package com.kuleuven.library.interfaces;
+
+import com.kuleuven.library.domain.User;
 
 public interface Borrowable {
     void borrow(User user);

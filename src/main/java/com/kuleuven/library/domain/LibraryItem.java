@@ -1,4 +1,4 @@
-package com.kuleuven.library;
+package com.kuleuven.library.domain;
 
 public abstract class LibraryItem {
     private final String id;

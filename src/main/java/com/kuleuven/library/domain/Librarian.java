@@ -1,4 +1,4 @@
-package com.kuleuven.library;
+package com.kuleuven.library.domain;
 
 public class Librarian extends User {
 

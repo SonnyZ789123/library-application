@@ -1,4 +1,7 @@
-package com.kuleuven.library;
+package com.kuleuven.library.impl;
+
+import com.kuleuven.library.domain.LibraryItem;
+import com.kuleuven.library.interfaces.LibraryListener;
 
 public class LoggingListener implements LibraryListener {
     public void onItemAdded(LibraryItem item) {
