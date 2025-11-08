@@ -43,6 +43,8 @@ public abstract class LibraryItem {
         return getType() + " - " + getFormattedMetadata();
     }
 
-    protected abstract String getFormattedMetadata();
+    protected String getFormattedMetadata() {
+        return title + " (" + year + ")";
+    };
 
 }

@@ -18,8 +18,8 @@ public class Main {
         library.addListener(new LoggingListener());
 
         // Create items
-        LibraryItem book = new Book("B1", "Design Patterns", 1994, "GoF", 40);
-        LibraryItem magazine = new Magazine("M1", "Science Weekly", 2023, 42, 12);
+        Book book = new Book("B1", "Design Patterns", 1994, "GoF", 40);
+        Magazine magazine = new Magazine("M1", "Science Weekly", 2023, 42, 12);
 
         // Add to library (triggers listener calls)
         library.addItem(book);
@@ -30,7 +30,7 @@ public class Main {
         Librarian librarian = new Librarian("Bob");
 
         // Borrow book + trigger notifier
-        ((Borrowable) book).borrow(member);
+        book.borrow(member);
         library.notifyItemBorrow(book, member);
 
         // Update metadata via overridden protected setter
@@ -49,7 +49,6 @@ public class Main {
         LibraryItem recommendation = recommender.recommendRandom(library);
         System.out.println("\nRecommended item: " +
                 (recommendation != null ? recommendation.getTitle() : "None"));
-
 
         // Display all items final info
         for (LibraryItem item : library.listItems()) {
