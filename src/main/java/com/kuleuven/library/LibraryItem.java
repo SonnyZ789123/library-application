@@ -38,4 +38,11 @@ public abstract class LibraryItem {
     public double getReducedPrice() {
         return price;
     }
+
+    public final String getFullDetails() {
+        return getType() + " - " + getFormattedMetadata();
+    }
+
+    protected abstract String getFormattedMetadata();
+
 }

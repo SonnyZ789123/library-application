@@ -55,4 +55,9 @@ public class Book extends LibraryItem implements Borrowable {
         }
         return reducedPrice;
     }
+
+    @Override
+    protected String getFormattedMetadata() {
+        return "Title: " + getTitle() + ", Author: " + author + ", Year: " + year + ", Price: " + getPrice();
+    }
 }

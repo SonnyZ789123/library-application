@@ -17,4 +17,9 @@ public class Magazine extends LibraryItem {
     public int getIssueNumber() {
         return issueNumber;
     }
+
+    @Override
+    protected String getFormattedMetadata() {
+        return getTitle() + " - Issue #" + issueNumber + " (" + year + ")";
+    }
 }
